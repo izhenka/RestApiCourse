@@ -1,0 +1,208 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/eugeniahelgedagsrud/git/RestApiCourse/Movies.Api/Movies.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/eugeniahelgedagsrud/git/RestApiCourse/Movies.Api/Movies.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eugeniahelgedagsrud/git/RestApiCourse/Movies.Api/Movies.Api.csproj",
+        "projectName": "Movies.Api",
+        "projectPath": "/Users/eugeniahelgedagsrud/git/RestApiCourse/Movies.Api/Movies.Api.csproj",
+        "packagesPath": "/Users/eugeniahelgedagsrud/.nuget/packages/",
+        "outputPath": "/Users/eugeniahelgedagsrud/git/RestApiCourse/Movies.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eugeniahelgedagsrud/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/eugeniahelgedagsrud/git/RestApiCourse/Movies.Application/Movies.Application.csproj": {
+                "projectPath": "/Users/eugeniahelgedagsrud/git/RestApiCourse/Movies.Application/Movies.Application.csproj"
+              },
+              "/Users/eugeniahelgedagsrud/git/RestApiCourse/Movies.Contracts/Movies.Contracts.csproj": {
+                "projectPath": "/Users/eugeniahelgedagsrud/git/RestApiCourse/Movies.Contracts/Movies.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eugeniahelgedagsrud/git/RestApiCourse/Movies.Application/Movies.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eugeniahelgedagsrud/git/RestApiCourse/Movies.Application/Movies.Application.csproj",
+        "projectName": "Movies.Application",
+        "projectPath": "/Users/eugeniahelgedagsrud/git/RestApiCourse/Movies.Application/Movies.Application.csproj",
+        "packagesPath": "/Users/eugeniahelgedagsrud/.nuget/packages/",
+        "outputPath": "/Users/eugeniahelgedagsrud/git/RestApiCourse/Movies.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eugeniahelgedagsrud/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.0-preview.1.25080.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/eugeniahelgedagsrud/git/RestApiCourse/Movies.Contracts/Movies.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/eugeniahelgedagsrud/git/RestApiCourse/Movies.Contracts/Movies.Contracts.csproj",
+        "projectName": "Movies.Contracts",
+        "projectPath": "/Users/eugeniahelgedagsrud/git/RestApiCourse/Movies.Contracts/Movies.Contracts.csproj",
+        "packagesPath": "/Users/eugeniahelgedagsrud/.nuget/packages/",
+        "outputPath": "/Users/eugeniahelgedagsrud/git/RestApiCourse/Movies.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/eugeniahelgedagsrud/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
